@@ -27,7 +27,7 @@ def calculate(principal, rate, time):
     question = input("Do you want to find the amount? |> ")
 
     if question == "y" or "yes":
-        amount = principal - interest
+        amount = principal + interest
         print("")
         print(f"The amount of the simple interest is ->₦{amount}")
     else:
