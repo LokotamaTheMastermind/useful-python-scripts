@@ -87,6 +87,7 @@ if confirm_1:
 if value_1 == "skip":
     show_solving_template()
 
+
 print("")
 value_2 = input("Please what is the rate ->%")
 
@@ -97,6 +98,7 @@ if confirm_2:
 
 if value_2 == "skip":
     show_solving_template()
+
 
 print("")
 value_3 = input("Please what is the time ->yrs")
