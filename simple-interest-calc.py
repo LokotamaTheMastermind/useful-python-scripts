@@ -46,9 +46,11 @@ def show_solving(principal, rate, time):
     """.format(principal, rate, time)
     print(name)
 
+
 """
 Function for appending solving template to simple-interest-results.txt
 """
+
 
 def show_solving_template():
     import time
@@ -63,7 +65,8 @@ def show_solving_template():
                    100
     """
 
-    filename_save = open("results/simple-interest-results.txt", "w", encoding="utf-8")
+    filename_save = open(
+        "results/simple-interest-results.txt", "w", encoding="utf-8")
     filename_save.write(f"{solving_template}")
     filename_save.close()
 
@@ -71,9 +74,8 @@ def show_solving_template():
     time.sleep(3)
     print("Now opening file in Notepad ...")
     time.sleep(3)
-    os.system("notepad results\simple-interest-results.txt")
+    os.system("notepad results\\simple-interest-results.txt")
     time.sleep(2)
-    exit()
 
 
 print("")
@@ -84,8 +86,9 @@ confirm_1 = value_1.isdigit()
 if confirm_1:
     int(value_1)
 
-if value_1 == "skip":
+if value_1 == " skip":
     show_solving_template()
+    quit()
 
 
 print("")
@@ -96,8 +99,9 @@ confirm_2 = value_2.isdigit()
 if confirm_2:
     int(value_2)
 
-if value_2 == "skip":
+if value_2 == " skip":
     show_solving_template()
+    quit()
 
 
 print("")
@@ -108,7 +112,8 @@ confirm_3 = value_3.isdigit()
 if confirm_3:
     int(value_3)
 
-if value_3 == "skip":
+if value_3 == " skip":
     show_solving_template()
+    quit()
 else:
     calculate(confirm_1, confirm_2, confirm_3)

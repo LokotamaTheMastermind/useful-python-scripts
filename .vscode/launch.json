@@ -5,10 +5,52 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Current Project",
+      "name": "Python: Word Matcher",
       "type": "python",
       "request": "launch",
-      "program": "${file}",
+      "program": "word-matcher.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Profit & Loss Calculator",
+      "type": "python",
+      "request": "launch",
+      "program": "profit-loss-calc.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Area of a square",
+      "type": "python",
+      "request": "launch",
+      "program": "area-of-square.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: String Reverser",
+      "type": "python",
+      "request": "launch",
+      "program": "string-reverser.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Variation Calculator",
+      "type": "python",
+      "request": "launch",
+      "program": "variation-calc.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Compound Interest Calculator",
+      "type": "python",
+      "request": "launch",
+      "program": "compound-interest-calc.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Simple Interest Calculator",
+      "type": "python",
+      "request": "launch",
+      "program": "simple-interest-calc.py",
       "console": "integratedTerminal"
     }
   ]
