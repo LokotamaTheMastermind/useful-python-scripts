@@ -7,6 +7,6 @@
   "settings": {
     "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "atomKeymap.promptV3Features": true,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
   }
 }

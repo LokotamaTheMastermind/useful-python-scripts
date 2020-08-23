@@ -1,6 +1,3 @@
 {
-  "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
-  "editor.fontSize": 15,
-  "atomKeymap.promptV3Features": true,
-  "files.autoSave": "onFocusChange"
+  "editor.fontSize": 15
 }
