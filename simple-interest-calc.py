@@ -9,30 +9,6 @@ P * R * T
 
 """
 
-print("")
-value_1 = input("Please what is the principal ->₦")
-
-confirm_1 = value_1.isdigit()
-
-if confirm_1:
-    int(value_1)
-
-print("")
-value_2 = input("Please what is the rate ->%")
-
-confirm_2 = value_2.isdigit()
-
-if confirm_2:
-    int(value_2)
-
-print("")
-value_3 = input("Please what is the time ->yrs")
-
-confirm_3 = value_3.isdigit()
-
-if confirm_3:
-    int(value_3)
-
 
 def calculate(principal, rate, time):
 
@@ -56,6 +32,9 @@ def calculate(principal, rate, time):
 
 
 def show_solving(principal, rate, time):
+    """
+    Function for showing the solved equation in a ready to copy & paste solving-template in results/simple-interest-results.txt
+    """
     name = """
     Formula = P * R * T
              -----------
@@ -67,8 +46,12 @@ def show_solving(principal, rate, time):
     """.format(principal, rate, time)
     print(name)
 
+"""
+Function for appending solving template to simple-interest-results.txt
+"""
 
 def show_solving_template():
+    import time
     import os
     solving_template = """
     Formula = P * R * T
@@ -79,12 +62,51 @@ def show_solving_template():
                ---------
                    100
     """
-    command_1 = f"cd results"
-    os.system(command_1)
+
+    filename_save = open("results/simple-interest-results.txt", "w", encoding="utf-8")
+    filename_save.write(f"{solving_template}")
+    filename_save.close()
+
+    print("Done appending the solving template to the path results/simple-interest-results.txt")
+    time.sleep(3)
+    print("Now opening file in Notepad ...")
+    time.sleep(3)
+    os.system("notepad results\simple-interest-results.txt")
+    time.sleep(2)
+    exit()
 
 
-if value_1 == "skip" or value_2 == "skip" or value_3 == "skip":
+print("")
+value_1 = input("Please what is the principal ->₦")
+
+confirm_1 = value_1.isdigit()
+
+if confirm_1:
+    int(value_1)
+
+if value_1 == "skip":
     show_solving_template()
 
+print("")
+value_2 = input("Please what is the rate ->%")
+
+confirm_2 = value_2.isdigit()
+
+if confirm_2:
+    int(value_2)
+
+if value_2 == "skip":
+    show_solving_template()
+
+print("")
+value_3 = input("Please what is the time ->yrs")
+
+confirm_3 = value_3.isdigit()
+
+if confirm_3:
+    int(value_3)
+
+if value_3 == "skip":
+    show_solving_template()
 else:
-    calculate(value_1, value_2, value_3)
+    calculate(confirm_1, confirm_2, confirm_3)
