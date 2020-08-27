@@ -1,6 +1,6 @@
 # Useful Python Scripts
 
-![Python package](https://github.com/LokotamaTheMastermind/useful-python-scripts/workflows/Python%20package/badge.svg?branch=master) ![GitHub](https://img.shields.io/github/license/LokotamaTheMastermind/useful-python-scripts?style=flat-square) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/LokotamaTheMastermind/useful-python-scripts?style=flat-square)
+![Python package](https://github.com/LokotamaTheMastermind/useful-python-scripts/workflows/Python%20package/badge.svg?branch=master) ![GitHub](https://img.shields.io/github/license/LokotamaTheMastermind/useful-python-scripts?style=flat-square) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/LokotamaTheMastermind/useful-python-scripts?style=flat-square) ![Depfu](https://img.shields.io/depfu/LokotamaTheMastermind/useful-python-scripts)
 
 **This are just a set of python scripts that are just useful or are not really that helpful**
 
