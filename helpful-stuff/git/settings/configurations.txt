@@ -1,0 +1,6 @@
+published = True
+publish_name = origin
+branches = [
+  master
+  pull-requests
+]

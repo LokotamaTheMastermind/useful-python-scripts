@@ -1,16 +1,17 @@
 def main():
-    import pickle
+    import os
+    folder = input("Where do you want me to watch: ")
+    # settings_dir = os.system("cd {}/settings/".format(file))
+    settings_dir_exists = os.path.exists('{}'.format(f"{folder}/settings/"))
 
-    first_setup = True
-
-    file_saved = pickle.dump(first_setup, open("settings/configurations.txt", mode="w", encoding="utf-8"))
-
-    print("Welcome to the 1st ever Python automated Git Project Manager ...")
-
-    if not first_setup:
-        pass
-    elif first_setup:
-        print("Great")
-    pass
-
+    if folder != "":
+        if settings_dir_exists:
+            print("Available settings in the location")
+            print("Grabbing needed configuration")
+            settings_conf = open(f'{folder}/settings/configurations.txt', 'r')
+            lines = settings_conf.readlines()
+        elif not settings_dir_exists:
+            print("No settings found")
+            print("Going through quick-setup of the configurations, please endure ...")
+        # var = lines[1].strip()
 main()
