@@ -1,5 +1,7 @@
 # Useful Python Scripts
 
+![Python package](https://github.com/LokotamaTheMastermind/useful-python-scripts/workflows/Python%20package/badge.svg?branch=master)
+
 **This are just a set of python scripts that are just useful or are not really that helpful**
 
 **This repository shows the possibilities of python**
