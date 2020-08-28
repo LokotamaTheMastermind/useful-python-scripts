@@ -17,4 +17,4 @@
 3. **Console Search -> `helpful-stuff/cmd-developer-search.py` and `helpful-stuff/cmd-google-search.py` and `helpful-stuff/cmd-youtube-search.py` files**
 
 ## Pre-releases
-1. <div style="color: red; font-weight: bolder;">[BETA]</div> release -> Automated Git Project Manager
+1. <div><span style="color: red; font-weight: bolder;">[BETA]</span> <span>release -> Automated Git Project Manager</span></div>
