@@ -1,0 +1,9 @@
+************* Module string-reverser
+string-reverser.py:1:0: C0103: Module name "string-reverser" doesn't conform to snake_case naming style (invalid-name)
+string-reverser.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+string-reverser.py:6:0: W0622: Redefining built-in 'reversed' (redefined-builtin)
+string-reverser.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+
+Your code has been rated at 3.33/10 (previous run: 3.33/10, +0.00)
