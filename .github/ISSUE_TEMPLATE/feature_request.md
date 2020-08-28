@@ -26,4 +26,10 @@ assignees: ''
 - [ ] Funny
 - [ ] Very useful, useful
 
+**One option must be checked, else feature request will be ignore**
+
 **Please make your feature request something doable and clear**
+
+**Remember to follow the [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) when making feature request**
+
+**`Signed by LokotamaTheMastermind -> Don't remove this`**
