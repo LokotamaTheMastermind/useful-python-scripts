@@ -1,0 +1,8 @@
+************* Module word-matcher
+word-matcher.py:1:0: C0103: Module name "word-matcher" doesn't conform to snake_case naming style (invalid-name)
+word-matcher.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+word-matcher.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.50/10 (previous run: 7.50/10, +0.00)
