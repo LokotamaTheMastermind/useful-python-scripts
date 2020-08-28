@@ -1,0 +1,10 @@
+************* Module cmd-google-search
+cmd-google-search.py:1:0: C0103: Module name "cmd-google-search" doesn't conform to snake_case naming style (invalid-name)
+cmd-google-search.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cmd-google-search.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+cmd-google-search.py:5:8: C0415: Import outside toplevel (webbrowser) (import-outside-toplevel)
+cmd-google-search.py:6:8: C0415: Import outside toplevel (time) (import-outside-toplevel)
+
+-----------------------------------
+
+Your code has been rated at 5.45/10
