@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Useful Python Scripts
 
-You can use the [editor on GitHub](https://github.com/LokotamaTheMastermind/useful-python-scripts/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![Python package](https://github.com/LokotamaTheMastermind/useful-python-scripts/workflows/Python%20package/badge.svg?branch=master) ![Depfu](https://img.shields.io/depfu/LokotamaTheMastermind/useful-python-scripts)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**This are just a set of python scripts that are just useful or are not really that helpful**
 
-### Markdown
+**This repository shows the possibilities of python**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Feel free to contribute just follow the rules at: [CONTRIBUTING](CONTRIBUTING.md)**
 
-```markdown
-Syntax highlighted code block
+**Made with ♥ by LokotamaTheMastermind**
 
-# Header 1
-## Header 2
-### Header 3
+## Features
 
-- Bulleted
-- List
+1. **Word Matcher -> `helpful-stuff/word-matcher.py`**
+2. **String Reverser -> `helpful-stuff/string-reverser.py`**
+3. **Console Search -> `helpful-stuff/cmd-developer-search.py` and `helpful-stuff/cmd-google-search.py` and `helpful-stuff/cmd-youtube-search.py` files**
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LokotamaTheMastermind/useful-python-scripts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Pre-releases
+<div style="color: red;">1. [BETA] release -> <span><strong>Automated Git Project Manager</strong></span></div>
