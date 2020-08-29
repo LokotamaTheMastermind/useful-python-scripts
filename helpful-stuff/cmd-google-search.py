@@ -1,5 +1,5 @@
 try:
-    while True:
+    while 1:
         print("")
         search_query = input("What do you want to search on Google: ")  # Google Search Query
 

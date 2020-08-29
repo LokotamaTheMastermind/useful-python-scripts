@@ -1,5 +1,5 @@
 try:
-    while True:
+    while 1:
         def normal_search(site_name, site_domain, query):
             if query != "":
                 import webbrowser
