@@ -1,9 +1,11 @@
-# Security Policy
+# Useful Python Scripts
+___
+## Security Policy
+___
+### Supported Versions
+___
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+**The releases support reporting security issues**
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -12,4 +14,11 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-**If any vunerabilities just make a new issue and then within a week or 2 it will be fixed**
+**If any vunerabilities just make a new issue with the template of bug and then within a week or 2 it will be fixed**
+
+
+<br>
+
+___
+
+#### Signed by [LokotamaTheMastermind](www.github.com/LokotamaTheMastermind?tab=repositories)

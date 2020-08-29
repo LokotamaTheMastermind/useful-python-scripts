@@ -10,3 +10,9 @@
 6. **For any vunerabilities follow the [SECURITY](SECURITY.md) guidelines for the repository**
 7. **Follow allowed stuff in the [`LICENSE`](LICENSE) file**
 8. **Don't make fun of me for not really following best `programming` practices**
+
+<br>
+
+___
+
+#### Signed by [LokotamaTheMastermind](www.github.com/LokotamaTheMastermind?tab=repositories)
